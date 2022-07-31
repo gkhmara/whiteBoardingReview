@@ -1,0 +1,18 @@
+//Prompt 4: Checking for Uniqueness
+
+function uniqueChar(string) {
+  for(let i = 0; i < string.length; i++) {
+    for(let j = i + 1; j < string.length; j++) {
+      if(string[i] = string[j]) {
+        return `Unique characters: ${false}`;
+      }
+    }
+  }
+  return `No unique characters: ${true}`;
+}
+
+//Input: "hello"
+//Output: Unique characters: false
+
+//Input: "copyright"
+//Output: No Unique characters: true
